@@ -1,0 +1,31 @@
+.img-grid-mobile {
+    display: grid;
+    grid-gap: 1.5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-grid {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px auto;
+}
+
+.img-wrap {
+    height: 0;
+    opacity: 1;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 50% 0;
+    position: relative;
+}
+
+.img-wrap .image {
+    left: 0;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}

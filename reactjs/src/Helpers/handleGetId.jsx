@@ -1,0 +1,1 @@
+export const handleGetId = ( users, userLoggedIn ) => users?.filter( ( userToFilter ) => userToFilter !== userLoggedIn?.uid)[0];

@@ -1,0 +1,60 @@
+## Next JS
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+nextjs/node_modules
+nextjs/.pnp
+nextjs/.pnp.js
+
+# testing
+nextjs/coverage
+
+# next.js
+nextjs/.next/
+nextjs/out/
+
+# production
+nextjs/build
+
+# misc
+nextjs/.DS_Store
+nextjs/*.pem
+
+# debug
+nextjs/npm-debug.log*
+nextjs/yarn-debug.log*
+nextjs/yarn-error.log*
+nextjs/.pnpm-debug.log*
+
+# local env files
+nextjs/.env*.local
+
+# vercel
+nextjs/.vercel
+
+## React JS
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+reactjs/node_modules
+reactjs/.pnp
+reactjs/.pnp.js
+
+# testing
+reactjs/coverage
+
+# production
+reactjs/build
+
+# misc
+reactjs/.DS_Store
+reactjs/.env.local
+reactjs/.env.development.local
+reactjs/.env.test.local
+reactjs/.env.production.local
+
+reactjs/npm-debug.log*
+reactjs/yarn-debug.log*
+reactjs/yarn-error.log*
+

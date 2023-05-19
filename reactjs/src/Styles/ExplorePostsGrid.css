@@ -1,0 +1,27 @@
+.image-gallery-mobile {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: max-content;
+    grid-gap: 1.5px;
+    grid-template-columns: repeat( auto-fit, minmax( 30%, 1fr ) );
+    width: 100%;
+}
+
+.image-gallery {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: max-content;
+    grid-gap: 25px;
+    grid-template-columns: repeat( auto-fit, minmax( 31%, 1fr ) );
+    width: 100%;
+}
+
+.image-box {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-box:nth-child( 7n + 1 ) {
+    grid-column: span 2;
+    grid-row: span 2;
+}

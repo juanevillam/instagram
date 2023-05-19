@@ -1,0 +1,32 @@
+.Navigation__Icon {
+  cursor: pointer;
+  display: block;
+  object-fit: cover;
+}
+  
+.Navigation__IconBold {
+  cursor: pointer;
+  display: none;
+  object-fit: cover !important;
+}
+
+.activeFeed .Navigation__Icon { display: none; }
+.activeFeed .Navigation__IconBold { display: block; }
+
+.activeMessenger .Navigation__Icon { display: none; }
+.activeMessenger .Navigation__IconBold { display: block; }
+
+.activeReels .Navigation__Icon { display: none; }
+.activeReels .Navigation__IconBold { display: block; }
+
+.activeShopping .Navigation__Icon { display: none; }
+.activeShopping .Navigation__IconBold { display: block; }
+
+.activeProfile .Navigation__Icon { display: none; }
+.activeProfile .Navigation__IconBold { display: block; }
+
+.activeExplore .Navigation__Icon { display: none; }
+.activeExplore .Navigation__IconBold { display: block; }
+
+.activeNotifications .Navigation__Icon { display: none; }
+.activeNotifications .Navigation__IconBold { display: block; }
